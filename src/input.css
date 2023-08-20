@@ -9,6 +9,7 @@
 .btn-purple{
     @apply bg-indigo-600 text-white
 }
+
 .btn-white{
     @apply bg-white
 }
@@ -16,12 +17,15 @@
 .ham-bottom, .ham-middle, .ham-top {
     transition: all .5s;
 }
+
 .open .ham-middle{
     display: none;
 }
+
 .open .ham-top{
     transform: rotate(45deg) translateY(0px) translateX(3px); 
 }
+
 .open .ham-bottom{
     transform: rotate(-45deg) translateY(-2px) translateX(4px); 
 }
